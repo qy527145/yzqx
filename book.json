@@ -1,0 +1,11 @@
+{
+    "gitbook": "3.2.3",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "katex"
+    ],
+    "links": {},
+    "pluginsConfig": {}
+}
