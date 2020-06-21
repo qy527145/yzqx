@@ -2,7 +2,8 @@
 
 &emsp;&emsp;
 我们先来看一个简单的例题：
->如图，AB是椭圆
+>如图，
+AB是椭圆
 $$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$$
 长轴（A在左侧），
 过点A做两条斜率之积为s的直线，
@@ -10,7 +11,7 @@ $$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$$
 连接MN得到直线l，
 问直线l是否过定点？
 
-![图01](/res/png/图01.png)  
+![图01](/res/png/advanced/fixedpoint/type01/图01.png)  
 按照之前的思路，
 我们直接将该椭圆进行线性变换，
 将其伸缩为一个单位圆。  
@@ -20,7 +21,7 @@ $$
 $$
 则原椭圆在新X-Y系中为单位圆。
 如图：  
-![图02](/res/png/图02.png)  
+![图02](/res/png/advanced/fixedpoint/type01/图02.png)  
 由于对称性，
 如果直线过定点，
 那么定点必然在X轴上。
@@ -46,7 +47,7 @@ $$90^\circ$$
 需要构造圆周角，
 显然可以连接BM、BN，
 如图：  
-![图03](/res/png/图03.png)  
+![图03](/res/png/advanced/fixedpoint/type01/图03.png)  
 很明显，
 斜率之积可用
 $$\tan \angle MAB\cdot \tan \angle NAB$$
@@ -93,7 +94,7 @@ $$(\dfrac{a^2+b^2s}{a^2-b^2s}a,0)$$
 那么现在直线l是否还是过定点呢？  
 将椭圆线性变换后，
 如下图所示：  
-![图04](/res/png/图04.png)  
+![图04](/res/png/advanced/fixedpoint/type01/图04.png)  
 为了利用斜率，
 我们得过A点作一条水平线，
 该水平线交椭圆另一点为B点。
@@ -109,7 +110,7 @@ $$\angle MAB,\angle NAB$$
 $$A_1B$$
 。
 如下图所示：  
-![图05](/res/png/图05.png)  
+![图05](/res/png/advanced/fixedpoint/type01/图05.png)  
 连接
 $$A_1M,A_1N$$
 后，
